@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 AZURE_OPENAI_API_KEY = os.getenv("AZURE_OPENAI_API_KEY")
-AZURE_ENDPOINT = "https://shaddyy.openai.azure.com/"
+AZURE_ENDPOINT = "add your endpoint"
 
 # Initialize Azure OpenAI client
 client = AzureOpenAI(
