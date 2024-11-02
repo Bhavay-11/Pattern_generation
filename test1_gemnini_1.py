@@ -4,7 +4,7 @@ import os
 import json
 
 # Configure your API key
-GOOGLE_API_KEY = "AIzaSyAaWpyblCGoK0y6PJlbn535WhL8-w6gOlU"
+
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Define input and output folders
