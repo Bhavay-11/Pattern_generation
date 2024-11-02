@@ -6,8 +6,7 @@ import sys
 from PIL import Image
 
 # Define project information
-PROJECT_ID = "elegant-racer-426105-g3"
-LOCATION = "us-central1"
+
 
 # Initialize Vertex AI
 aiplatform.init(project=PROJECT_ID, location=LOCATION)
